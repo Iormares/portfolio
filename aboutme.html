@@ -2,11 +2,16 @@
 <html>
 <head>
 <style>
+body, html {
+    height: 100%;
+}
+
 .parallax {
-    /* The image used*/
-    background-image: url("https://scontent.cdninstagram.com/t51.2885-15/e35/13150947_610498519113164_1564059521_n.jpg")
-      /* Set a specific height */
-     "min-height: 500px;"
+    /* The image used */
+    background-image: url('img_parallax.jpg');
+
+    /* Full height */
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -18,13 +23,15 @@
 </head>
 <body>
 
-<p>Iormares Rodas.</p>
-
 <div class="parallax"></div>
 
-<div style="height:500px;background-color:lightpink;font-size:36px">
-My Name is Iormares Rodas. I am a rising senior at Yonkers Montessori Academy. 
+<div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
 </div>
+
+<div class="parallax"></div>
 
 </body>
 </html>
