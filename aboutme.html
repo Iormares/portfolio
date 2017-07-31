@@ -1,39 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
- <div>
-body, html {
-    height: 100;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("http://weknowyourdreams.com/images/fox/fox-03.jpg");
-
-    /* Full height */
-    height: 100; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
-    </div>
-</style>
-</head>
 <body>
 
-<div class="parallax"></div>
+<h2>My First JavaScript</h2>
 
-<div style="height:1000px;background-color:red;font-size:36px">
-wad up
-</div>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
 
-<div class="parallax"></div>
+<p id="demo"></p>
 
 </body>
-</html>
+</html> 
         
     
